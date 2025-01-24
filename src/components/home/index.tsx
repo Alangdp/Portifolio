@@ -5,6 +5,7 @@ import Navbar from "../navbar";
 import Body from "../body";
 import Main from "../main";
 import Footer from "../footer";
+import { WebsiteEmbedWrapper } from "../embedPreview";
 
 export default function Home() {
   
@@ -87,10 +88,12 @@ export default function Home() {
               </a>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 md:grid-cols-2 h-[1200px] md:h-[600px] lg:h-52 gap-4">
+              <WebsiteEmbedWrapper previewUrl="https://www.example.com">
               <div
                 className="hover:brightness-75 transition-all w-full bg-no-repeat bg-cover bg-center"
                 style={{ backgroundImage: "url('/images/image1.jpg')" }}
               ></div>
+              </WebsiteEmbedWrapper>
               <div
                 className="hover:brightness-75 transition-all w-full bg-no-repeat bg-cover bg-center"
                 style={{ backgroundImage: "url('/images/image1.jpg')" }}
