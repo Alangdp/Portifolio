@@ -2,8 +2,8 @@ export default function Footer() {
   return (
     <footer className="px-4 w-full lg:px-14 xl:container xl:px-60">
       <div className="h-[56px] flex items-center justify-between">
-        <span className="flex h-full items-center leading-5 text-white text-xl">
-          @ 2024
+        <span className="flex h-full items-center leading-5 text-white text-xl select-text">
+          @ {new Date().getFullYear()} 
         </span>
         <div className="flex gap-4 lg:mx-0">
           <a href="https://www.linkedin.com/in/alangdp/">

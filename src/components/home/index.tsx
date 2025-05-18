@@ -8,8 +8,6 @@ import Footer from "../footer";
 import { WebsiteEmbedWrapper } from "../embedPreview";
 
 export default function Home() {
-  
-  
   useEffect(() => {
     function type(word: string, delay = 100) {
       let i = 0;
